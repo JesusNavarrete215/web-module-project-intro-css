@@ -1,0 +1,177 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin:0;
+	max-width:100%;
+	border:1px solid grey
+}
+/* General Styles */
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4F4F4F; /*easier to read then back on white*/
+    font-family: 'Roboto Mono', monospace;
+	border-color: transparent;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+	border-color: transparent;
+}
+section{
+	padding: 4% 0;
+	border-color: transparent;
+}
+ /* Header Section Styles*/
+
+ nav{
+	 padding:2% 0;
+	 border-color: transparent;
+ }
+ nav a{
+	 display: inline-block;
+	padding:1% 0;
+	width:10%;
+	border-radius:10px ;
+	text-align: center;
+	color: white;
+	border-color: transparent;
+	}
+.orange{
+	background-color: #FF764E;
+	margin-left: 10%;
+}
+
+.blue{
+	background-color: #5ED3EB;
+	margin: 0 24%;
+}
+.yellow{
+	background-color:#FFCD69 ;
+	margin-right: 10%;
+}
+
+/*Top Section Styles*/
+.top{
+	/*text-align: center;*/
+	position: relative;
+	border-color: transparent;
+}
+.left img{ 
+	border-radius: 50%;
+	width:70%;
+	border-color: transparent;
+}
+.left,.right{
+	display: inline-block;
+	border-color: transparent;
+}
+.left{
+	width: 40%;
+	text-align:center;
+	border-color: transparent;
+}
+.right{
+	width:45%;
+	margin-left:3%;
+	position: absolute;
+	top: 40%;
+	text-align:center;
+	border-color: transparent;
+}
+
+
+/*background image section*/
+
+.heroImg{
+	height:50vh;
+	background-image:url('assets/footer_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	border-color: transparent;
+}
+
+.fire img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: transparent;
+}
+.truck img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: transparent;
+}
+
+/*Second section of text making backgroud light brown*/
+
+.secmiddle{
+	background-color:#DDB9A3;
+	border-color: transparent;
+}
+.footer nav{
+	background-color:#F9E7DC;
+	border-color: transparent;
+}
+
+.fire p{
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0;
+	padding-bottom: 40px;
+	border-color: transparent;
+}
+
+.truck p{
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0;
+	border-color: transparent;	
+}
+
+
